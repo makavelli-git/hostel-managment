@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.brand-logo{
+    height: 8vh;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5rem;
+}
+
+.logout-btn{
+    padding: 10px 25px;
+    border: 2px solid #480087;
+    background: transparent;
+    color: #480087;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.logout-btn:hover{
+    background-color: #480087;
+    color: white;
+    transition: 0.5s;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-links button{
+    padding: 10px 25px;
+    border: none;
+    background: transparent;
+}
+
+.nav-links button:hover,
+.nav-links button:focus{
+    border-bottom: 2px solid #480087;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#profile-page,
+#complaints-page{
+    display: none;
+}
+
+.pages{
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.book-desc{
+    color: #818181;
+    margin-top: 10px;
+}
+
+#book-page{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#book-page form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#book-page form input,
+#book-page form select,
+#book-area form textarea,
+.message,
+.submit-btn{
+    padding: 10px 15px;
+    width: 400px;
+}
